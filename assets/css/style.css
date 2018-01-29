@@ -1,0 +1,74 @@
+body {
+    background-color: black;
+    background: url('../images/3210.jpg') no-repeat center center fixed; 
+    background-size: cover;
+} /*Lines 1-5 work on github*/
+
+/*copied from md*/               
+.top-nav-collapse {
+    background-color: #78909c !important; 
+}
+.navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+}
+@media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #78909c !important;
+    } 
+}
+h1, h2, h3 {
+    letter-spacing: 8px;
+}
+h5 {
+    letter-spacing: 3px;
+}
+.hr-light {
+    border-top: 3px solid #fff;
+    width: 80px;
+}
+@media (max-width: 740px) {
+    .full-height,
+    .full-height body,
+    .full-height header,
+    .full-height header .view {
+        height: 700px; 
+    } 
+} /*end of copied css*/
+
+footer {
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    letter-spacing: 3px;
+}
+
+#profilepic {
+    height: 250px;
+    width: 350px;
+}
+
+#social-media-icon {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+span {
+    letter-spacing: 3px;
+    margin-left: 10px; 
+
+}
+
+ul {
+    letter-spacing: 3px;
+}
+
+p {
+    letter-spacing: 1px;
+    font-family: Arial;
+    font-style: italic;
+    font-weight: oblique;
+}
